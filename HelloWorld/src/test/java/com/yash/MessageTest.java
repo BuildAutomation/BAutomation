@@ -19,7 +19,7 @@ public class MessageTest {
 	@Test
 	public void test() {
 		String user = "Demo";
-		String ms = "Hello World";
+		String ms = "Welcome to the SampleApp";
 		Message message = new Message();
 		message.setUser(user);
 		assertEquals(ms + " " + user+" ...!", message.getMsg());

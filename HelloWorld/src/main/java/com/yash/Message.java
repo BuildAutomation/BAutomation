@@ -2,7 +2,7 @@ package com.yash;
 
 public class Message {
 	private String user;
-	private String msg="Hello World";
+	private String msg="Welcome to the SampleApp";
 
 	public String getUser() {
 		return user;
